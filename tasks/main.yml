@@ -83,3 +83,5 @@
     name: "{{ apache_service }}"
     state: "{{ apache_state }}"
     enabled: true
+    use: "{{ gestionnaire_service }}"
+
